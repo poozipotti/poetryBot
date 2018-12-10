@@ -15,7 +15,7 @@ function getPoem(){
 	    	console.log(this.status);
 	    }
 	};
-	xhttp.open("GET", "http://localhost:4000/poems", true);
+	xhttp.open("GET", "/poems", true);
 	xhttp.send();
 }
 
