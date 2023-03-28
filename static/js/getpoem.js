@@ -15,7 +15,7 @@ function getPoem(){
 	    	console.log(this.status);
 	    }
 	};
-	xhttp.open("GET", "/poems", true);
+	xhttp.open("GET", "../poems.txt", true);
 	xhttp.send();
 }
 
